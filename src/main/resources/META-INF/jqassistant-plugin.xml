@@ -1,0 +1,13 @@
+<jqassistant-plugin xmlns="http://schema.jqassistant.org/plugin/v1.10"
+                    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+                    xsi:schemaLocation="http://schema.jqassistant.org/plugin/v1.10 https://schema.jqassistant.org/plugin/jqassistant-plugin-v1.10.xsd"
+                    name="Text File Scanner">
+    <description>Provides a scanner for text files.</description>
+    <model>
+        <class>org.jqassistant.contrib.plugin.text.api.model.TextFileDescriptor</class>
+        <class>org.jqassistant.contrib.plugin.text.api.model.TextLineDescriptor</class>
+    </model>
+    <scanner>
+        <class>org.jqassistant.contrib.plugin.text.impl.TextFileScannerPlugin</class>
+    </scanner>
+</jqassistant-plugin>
